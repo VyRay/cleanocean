@@ -1,0 +1,246 @@
+.header{
+    padding: 32px 0;
+    position: absolute;
+    z-index: 100;
+    top: 20px;
+    background-color: #1d476ebd;
+    width: 100%;
+
+}
+.logo{
+    position: relative;
+    
+}
+.logo img{
+    width: 200px;
+    position: absolute;
+    top: -100px;
+    background-color: lightblue;
+}
+.nav ul{
+    list-style: none;
+}
+.nav li{
+    margin: 0 19px;
+}
+.nav li a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #272D4E;
+}
+.clip{
+    background-size:cover ;
+    height: 100hv;
+    position: relative;
+}
+.text-box{
+    width: 500px;
+    position: absolute;
+    top: 60%;
+    left: 28%;
+    transform: translate(-50% ,-50%);
+    text-align: left;
+    color: rgb(255, 255, 255);
+    background-color: #1d476ebd;
+    padding: 60px 20px;
+}
+.text-box a:hover{
+    text-decoration: underline;
+}
+.text-box h2{
+    color: lightblue;
+}
+.text-box p{
+    margin-bottom: 30px;
+}
+.nav li{
+    margin: 0 14px;
+    position: relative;
+}
+.nav li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.nav li a:hover{
+    text-decoration: underline;
+}
+.sub-menu{
+    color: lightblue;
+    background-color: #1d476ebd;
+    position: absolute;
+    left: 0;
+    width: 100px;
+    padding: 3px;
+    display: none;
+}
+.sub-menu li{
+    margin: 0;
+}
+.nav li:hover .sub-menu{
+    display: block;
+    z-index: 99;
+}
+.clip video{
+    object-fit: cover;
+    width: 100%;
+}
+.text-box{
+    position: absolute;
+}
+.small-font{
+    font-size: 16px;
+}
+.get-st{
+    margin: 0 12px 0 6px;
+}
+.about{
+    text-decoration: none;
+    font-weight: 500;
+    color: lightblue;
+    margin: 0 6px 0 32px;
+}
+.right-menu a:hover{
+    text-decoration: underline;
+}
+.contain-banner p{
+    margin: 32px 0 42px;
+}
+.banner-img{
+    overflow: hidden;
+}
+.banner{
+    padding: 40px 0;  
+}
+.banner-img img{
+    width: 100%;
+    margin-top: 50px;
+}
+.banner a:hover{
+    text-decoration: underline;
+}
+.feature-card{
+    overflow: hidden;
+    height: 195px;
+    box-shadow: 0 25px 50px rgba(16, 20, 77, 0.5);
+}
+.feature-card img{
+    width: 100%;
+}
+.content-card h3{
+    margin:10px 0 3px ;
+    color: lightblue;
+}
+.ourmission{
+    margin-top: 80px;
+    padding: 80px 0;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0.012109067259716388) 0%, rgba(0,181,255,0.6395600476518732) 37%, rgba(2,34,56,1) 100%);
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: 2200px, 100%; 
+}
+.feature-card a{
+    display: inline; 
+}
+.content-card p{
+    color: white;
+    margin-bottom: 20px;
+}
+.content-card img{
+    width: 350px;
+}
+.speak h2{
+    color: lightblue;
+    margin-top: 80px;
+}
+.card{
+    padding:10px 10px;
+    border-radius: 15px;
+}
+.develope{
+    padding: 60px 0; 
+    background-repeat: no-repeat;
+    background-position: top right, center;
+    background-size: 700px, 100%;
+    color:  #272D4E;
+    margin: 80px, 0;
+    position: relative;
+}
+.content-develope a{
+    background-color: lightblue;
+    color: #272D4E;
+    padding: 30px;
+    text-decoration: none;
+}
+.develope h3{
+    color:  #272D4E;
+}
+.content-develope h3{
+    margin-top: 32px;
+}
+.content-develope p{
+    margin: 12px 0 30px;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+.feature-develope img{
+    width: 600px;
+    position: absolute;
+    top: 60px;
+    margin-left: 130px;
+}
+.know{
+    margin-top: 15px;
+}
+.footer{
+    background-color: #081d30;
+    width: 100%;
+    margin-top: 100px;
+}
+.foot-content{
+    padding: 30px;
+}
+.follow h3{
+    color: lightblue;
+}
+.socail img{
+    width: 300px;
+    padding-left: 30px;
+    margin-left: 20px;
+}
+.socail-logo img{
+    width: 300px;
+    background-color: lightblue;
+    margin-left: 30px;
+}
+.last-menu ul{
+    list-style: none;
+}
+.last-menu li{
+    margin:30px;
+}
+.footer{
+    position: relative;;
+}
+.last-menu a{
+    color: lightblue;
+    font-size: 14px;
+    width: 100px;
+    text-decoration: none;
+}
+.small-menu{
+    position: absolute;
+}
+.last-menu{
+    text-align: left;
+}
+.last-menu li a:hover{
+    text-decoration: underline;
+}
+.name p{
+    background-color: lightblue;
+    height: 50px;
+    color: #272D4E;
+    padding: 10px;
+}
+
